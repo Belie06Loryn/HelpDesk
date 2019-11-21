@@ -14,4 +14,7 @@ def page(request):
     return render(request,'all-pages/index.html',{})
 
 def learn(request):
-    return render(request,'all-pages/learn.html',{})    
+    return render(request,'all-pages/learn.html',{})  
+
+def profile(request):
+    return render(request,'all-pages/profile.html',{})       
